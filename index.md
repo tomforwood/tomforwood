@@ -1,46 +1,14 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Spanish Holiday Villa Sleeping 10-12
+tagline: Moraira
 ---
 {% include JB/setup %}
+<div class="spanimage">
+<img src="/assets/images/the_villa/large/Swimmingpool.jpg"/>
+</div>
+<p>Welcome to the Villa Mimosa website.  Our comfortable villa sleeps 10-12 and is available to rent all year round.  We hope that our guests enjoy their stay as much as we always do!</p>
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
+<p>The property is set in private gardens with a private pool. It offers 5 bedrooms, 4 bathrooms and plenty of indoor and outdoor spaces to spend time together or find peace and quiet.  
+ Just a short walk away are local shops and restaurants, and we're 2.5 km from Moraira town centre and its beaches.</p>
 

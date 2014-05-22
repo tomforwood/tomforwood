@@ -1,0 +1,45 @@
+---
+layout: page
+title: The Villa
+header: Posts By Category
+group: navigation
+---
+{% include JB/setup %}
+
+<div class="spanimage">
+<img src="/assets/images/the_villa/large/Upstairssunterrace.jpg"/>
+</div>
+<p>Villa Mimosa is a quintessential Spanish-style big family villa: white-washed and set in mature gardens, with stone floors to keep it cool inside and plenty of terraces to soak up the sun outside. We enjoy staying here too, so we like to keep it comfortably furnished and supplied with everything we think you'll need to enjoy your holiday.<p>
+
+<p><b>Features in brief</b>
+<div class="cols2">
+<ul><li>5 bedrooms (2 double rooms, 2 twin rooms, 1 bunk room)
+<li>2 further fold-out beds in the playroom
+<li>Sleeps up to 12
+
+<li>4 bathrooms
+<li>Large well-appointed kitchen with a dishwasher, 2 fridges and a small Hi-Fi
+<li>Playroom well stocked with books, puzzles and games
+<li>Upstairs living room with FreeSat and DVD player
+<li>Free Wi-Fi
+<li>Central heating
+<li>Fans in every room
+<li>Washing machine
+
+<li>9mx5m pool
+<li>Lots of sun-loungers
+<li>Naya (veranda) with large table outside
+<li>Built-in BBQ
+<li>Upstairs sun terrace
+<li>Mature gardens</ul><p>
+</div>
+<br>
+{% for post in site.categories.villa %}
+<div class="caption">
+<img src="/assets/images/the_villa/small/{{post.image}}" alt="{{post.title}}"/>
+{{post.content}}
+<br></div>
+{% endfor %}
+
+
+
