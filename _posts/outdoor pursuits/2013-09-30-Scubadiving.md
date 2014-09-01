@@ -13,11 +13,11 @@ The waters around Moraira offer pleasant scenic diving at relatively shallow dep
 
 
 <p>
-<a href="http://www.scubamoraira.com/home.php">ScubaMoraira.com</a>	Dive shop located on the main road that leads south out of Moraira. 
+<a href="http://www.scubamoraira.com/home.php">ScubaMoraira.com</a>	Friendly, professional, English-run dive shop located on the main road that leads south out of Moraira. 
 </p>
 
 <p>
-<a href="http://www.buceolagalera.es/">BuceoLaGalera.es</a>	Dive shop located at the VERY far side of the marina, way past the sign that says 'authorised persons only'. Call before visiting as they don't seem to keep regular hours.
+<a href="http://www.buceolagalera.es/">BuceoLaGalera.es</a>	Spanish-run dive shop located at the VERY far side of the marina, way past the sign that says 'authorised persons only'. Call before visiting as they don't seem to keep regular hours.
 </p>
 
 <p>
