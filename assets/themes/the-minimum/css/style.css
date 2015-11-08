@@ -923,6 +923,10 @@ Stuff added by Tom
   bottom: 10px;
 }
 
+table {
+ width: 100%;
+ border: 1px solid black;
+}
 .cols2
 {
 -moz-column-count:2; /* Firefox */

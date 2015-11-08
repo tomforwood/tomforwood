@@ -8,24 +8,12 @@ group: navigation
 
 <p>Visitors from the UK will find it easiest to book instantly online at <a href="http://www.holidaylettings.co.uk/rentals/moraira/10731">HolidayLettings.co.uk</a></li>
 <br>Visitors who prefer to book and pay in Euros, please <a href="mailto:{{ site.author.email }}">email us.</a> We usually respond within hours.
-<!--iframe height='598' width='100%' frameborder='0' src='http://www.spain-holiday.com/widget/propertycalendar.aspx?propertyid=3682&title=Availability&monthcount=6&culture=en-GB&cssurl=http://www.spain-holiday.com/css/widget/blue2/jquery-ui-1.10.1.custom.css?v=2387415'></iframe-->
 <div style="display:inline-block;"><iframe scrolling="no" width="518" height="770" frameBorder="0" style="overflow:hidden;border:none" src="http://www.ownersdirect.co.uk/haow/widgets/calendar.html?propertyId=1882313&unitId=3595217&monthCount=12&orientation=full&site=odhr"></iframe><a href="http://www.ownersdirect.co.uk/accommodation/p1882313" style="display:block;text-align:center;margin-top:-30px; font-size:12px;" rel="nofollow">OwnersDirect.co.uk #1882313</a></div>
 <div id="Prices">
 <h3>Prices</h3>
 <p>Mid-week changeovers, short stays and special rates for long lets out of season may be available on request. Please <a href="mailto:{{ site.author.email }}">contact us.</a>
-<iframe height='270' width='100%' frameborder='0' src='http://www.spain-holiday.com/widget/propertyprice.aspx?propertyid=3682&title=&culture=en-GB&cssurl=http://www.spain-holiday.com/css/widget/blue2/jquery-ui-1.10.1.custom.css?v=2387415'></iframe>
-
-<!-- Add div element to contain the calendar  + javascript to initialize it - ->
-    <div id='sh-calendar-885' data-propertyid='3696' data-title='' data-monthcount='3' data-culture='en-GB'></div>
-    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-    <script type='text/javascript' src='http://photocdn.spain-holiday.com/script/1504315/propertycalendarwidget.js'></script>
-    <script type='text/javascript'>
-      $('#sh-calendar-885').shCalendar();
-    </script>-->
+{% for post in site.categories.calendar %}
+fuckity fuckity fuck
+{{post.content}}
+{% endfor %}
 </div>
-
-<!--iframe
-src="http://www.holidaylettings.co.uk/avail_white.asp?home_id=10731"
-width="650" height="600" scrolling="no" frameborder="0" marginheight="0"
-marginwidth="0">
-</iframe-->
