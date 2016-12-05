@@ -29,6 +29,12 @@ excerpt_separator: "<!-- more -->"
 #
 production_url : http://villa.forwoods.org
 
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
